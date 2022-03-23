@@ -13,7 +13,7 @@ print("Количество раз когда Санта поднимется н
 print("Количество раз когда Санта опустится на этаж: " + str(cl))
 print("Санта окажется на " + str(resoult) + " этаже.")
 file.close()
-f = open("output1.TXT", 'w')
+f = open("output1.txt", 'w')
 g = str(resoult)
 f.write(g)
 f.close()
