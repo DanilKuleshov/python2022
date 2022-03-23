@@ -1,4 +1,4 @@
-file = open("input.TXT", 'r')
+file = open("input.txt", 'r')
 List = file.readline()
 op = 0
 cl = 0
