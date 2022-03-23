@@ -1,4 +1,4 @@
-file = open("input.TXT", 'r')
+file = open("input.txt", 'r')
 List = file.readline()
 op = 0
 cl = 0
@@ -15,7 +15,7 @@ for i in range(0, len(List)):
 resoult = op - cl
 print("Санта впервые впервые на " + str(resoult) + " этаже на " + str(tt) + " позиции.")
 file.close()
-f = open("output2.TXT", 'w')
+f = open("output2.txt", 'w')
 g = str(resoult)
 f.write(g)
 f.close()
