@@ -22,7 +22,7 @@ with open('input.txt', 'r') as Input:
         if Lines.count(j) > 1:
             for k in range(Lines.count(j) - 1):
                 Lines.remove(j)
-print('Санта посетил ' + str(len(Lines)) + ' дома за ночь!')
+print('Домов, получивших хотябы один подарок ', str(len(Lines)))
 
 with open('output1.txt', 'w') as output:
     output.write(str(len(Lines)))
