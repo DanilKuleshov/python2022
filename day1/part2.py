@@ -13,5 +13,5 @@ with open('input.txt', 'r') as INPUT:
         if op - cl == -1:
             break
 
-with open('output1.txt', 'w') as OUTPUT:
+with open('output2.txt', 'w') as OUTPUT:
     OUTPUT.write(str(cnt))
